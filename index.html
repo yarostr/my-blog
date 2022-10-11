@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220925211403">
+	<link rel="shortcut icon" href="img/png/my_mobile.png">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.typekit.net/xud3uha.css?_v=20220828015107">
+</head>
+
+<body class="body">
+	<div class="background" id="background"></div>
+	<div class="sidebar">
+		<picture><source srcset="img.webp/my.webp" type="image/webp"><img class="sidebar__avatar" src="img/png/my.png" alt=""></picture>
+		<picture><source srcset="img.webp/back.webp" type="image/webp"><img class="sidebar__img" src="img/jpg/back.jpg" alt=""></picture>
+		<h1 class="sidebar__name">
+			Ярослав Срельников
+		</h1>
+		<span class="sidebar__professional">
+			блог fullstack разработчика
+		</span>
+		<ul class="slidebar__social-list">
+			<li class="slidebar__social-item">
+				<a href="https://www.instagram.com/yaro.st" class="slidebar__social-link">
+					<svg class="slidebar__social-inst">
+						<use xlink:href="img/icons/icons.svg#svg-inst"></use>
+					</svg>
+				</a>
+			</li>
+			<li class="slidebar__social-item">
+				<a href="https://vk.com/yarost20" class="slidebar__social-link">
+					<svg class="slidebar__social-vk">
+						<use xlink:href="img/icons/icons.svg#svg-vk"></use>
+					</svg>
+				</a>
+			</li>
+			<li class="slidebar__social-item">
+				<a href="https://t.me/yarost1" class="slidebar__social-link">
+					<svg class="slidebar__social-tg">
+						<use xlink:href="img/icons/icons.svg#svg-tg"></use>
+					</svg>
+				</a>
+			</li>
+		</ul>
+		<p class="slidebar__social-description">
+			Fullstack разработчик. Практик верстки сайтов. Созданием сайтов занимаюсь с 2019 года. Только начинаю свой путь в it, в данном блоге рассказываю о своих успехах.
+		</p>
+		<div class="sliderbar__btn">
+			<a href="" class="slidebar__btn-link">
+				<button class="slidebar__btn-mywork btn">
+					Мои работы
+				</button>
+			</a>
+			<a href="https://t.me/yarost1" class="slidebar__btn-link">
+				<button class="slidebar__btn-message btn">
+					Написать мне
+				</button>
+			</a>
+		</div>
+	</div>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<ul class="header__list">
+					<li class="heder__item burger__item">
+						<button class="burger" id="burger">
+							<svg class="burger-img">
+								<use xlink:href="img/icons/icons.svg#svg-burger"></use>
+							</svg>
+						</button>
+					</li>
+					<li class="heder__item">
+						<a href="" class="header__link">
+							<button class="header__btn">
+								Главная
+							</button>
+						</a>
+					</li>
+					<li class="heder__item" id="header__article">
+						<button class="header__btn" id="margin-right">
+							Статьи
+						</button>
+						<svg class="header__btn-subnav" id="header__btn-subnav" width="10" height="5" viewBox="0 0 10 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M5 5L0.669872 0.5L9.33013 0.5L5 5Z" fill="white" />
+						</svg>
+					</li>
+					<li class="heder__item">
+						<a href="" class="header__link">
+							<button class="header__btn">
+								Обо мне
+							</button>
+						</a>
+					</li>
+				</ul>
+				<ul class="header__subnav-list" id="subnav">
+					<li class="header__subnav-item">
+						<a href="#" class="subnav__link">
+							Создание сайтов
+						</a>
+					</li>
+					<li class="header__subnav-item">
+						<a href="#" class="subnav__link">
+							Интернет-маркетинг
+						</a>
+					</li>
+					<li class="header__subnav-item">
+						<a href="#" class="subnav__link">
+							Продвижение видео
+						</a>
+					</li>
+				</ul>
+				<div class="mobile__menu" id="mobile__menu">
+					<picture><source srcset="img.webp/my_mobile.webp" type="image/webp"><img src="img/png/my_mobile.png" class="burger__avatar" alt=""></picture>
+					<picture><source srcset="img.webp/back__mobile.webp" type="image/webp"><img src="img/jpg/back__mobile.jpg" alt="" class="mobile__menu-img"></picture>
+					<h3 class="burger__name"> Ярослав Стрельников</h3>
+					<span class="burger__professional">
+						блог fullstack разработчика
+					</span>
+					<ul class="burger__list">
+						<li class="burger__item">
+							<a href="#" class="burger__link">
+								Статьи
+							</a>
+						</li>
+						<li class="burger__item">
+							<a href="#" class="burger__link">
+								Обо мне
+							</a>
+						</li>
+						<li class="burger__item">
+							<a href="#" class="burger__link">
+								Главная
+							</a>
+						</li>
+					</ul>
+					<div class="burger__btn">
+						<a href="#" class="burger__btn_link">
+							<button class="burger__btn_works btn">
+								Мои работы
+							</button>
+						</a>
+						<a href="https://t.me/yarost1" class="burger__btn_link">
+							<button class="burger__btn_write btn">
+								Написать мне
+							</button>
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page main">
+			<!-- Оболочка слайдера -->
+			<div class="top__slider swiper top">
+				<!-- Двигающееся часть слайдера -->
+				<div class="top__wrapper swiper-wrapper">
+					<!-- Слайд -->
+					<div class="top__slide swiper-slide">
+						<svg class="top__slide-shadow" width="140" height="195"></svg>
+						<h3 class="top__slide-title">
+							Отдыхаю на природе
+						</h3>
+						<span class="top__slider-date">
+							21.06.2020
+						</span>
+						<picture><source srcset="img.webp/1.webp" type="image/webp"><img class="top__slide-img" src="img/png/1.png" alt=""></picture>
+					</div>
+					<div class="top__slide swiper-slide">
+						<svg class="top__slide-shadow" width="140" height="195"></svg>
+						<h3 class="top__slide-title">
+							Отдыхаю на природе
+						</h3>
+						<span class="top__slider-date">
+							21.06.2020
+						</span>
+						<picture><source srcset="img.webp/2.webp" type="image/webp"><img class="top__slide-img" src="img/png/2.png" alt=""></picture>
+					</div>
+					<div class="top__slide swiper-slide">
+						<svg class="top__slide-shadow" width="140" height="195"></svg>
+						<h3 class="top__slide-title">
+							Отдыхаю на природе
+						</h3>
+						<span class="top__slider-date">
+							21.06.2020
+						</span>
+						<picture><source srcset="img.webp/3.webp" type="image/webp"><img class="top__slide-img" src="img/png/3.png" alt=""></picture>
+					</div>
+					<div class="top__slide swiper-slide">
+						<svg class="top__slide-shadow" width="140" height="195"></svg>
+						<h3 class="top__slide-title">
+							Отдыхаю на природе
+						</h3>
+						<span class="top__slider-date">
+							21.06.2020
+						</span>
+						<picture><source srcset="img.webp/4.webp" type="image/webp"><img class="top__slide-img" src="img/png/4.png" alt=""></picture>
+					</div>
+					<div class="top__slide swiper-slide">
+						<svg class="top__slide-shadow" width="140" height="195"></svg>
+						<h3 class="top__slide-title">
+							Отдыхаю на природе
+						</h3>
+						<span class="top__slider-date">
+							21.06.2020
+						</span>
+						<picture><source srcset="img.webp/1.webp" type="image/webp"><img class="top__slide-img" src="img/png/1.png" alt=""></picture>
+					</div>
+					<div class="top__slide swiper-slide">
+						<svg class="top__slide-shadow" width="140" height="195"></svg>
+						<h3 class="top__slide-title">
+							Отдыхаю на природе
+						</h3>
+						<span class="top__slider-date">
+							21.06.2020
+						</span>
+						<picture><source srcset="img.webp/2.webp" type="image/webp"><img class="top__slide-img" src="img/png/2.png" alt=""></picture>
+					</div>
+					<div class="top__slide swiper-slide">
+						<svg class="top__slide-shadow" width="140" height="195"></svg>
+						<h3 class="top__slide-title">
+							Отдыхаю на природе
+						</h3>
+						<span class="top__slider-date">
+							21.06.2020
+						</span>
+						<picture><source srcset="img.webp/3.webp" type="image/webp"><img class="top__slide-img" src="img/png/3.png" alt=""></picture>
+					</div>
+					<div class="top__slide swiper-slide">
+						<svg class="top__slide-shadow" width="140" height="195"></svg>
+						<h3 class="top__slide-title">
+							Отдыхаю на природе
+						</h3>
+						<span class="top__slider-date">
+							21.06.2020
+						</span>
+						<picture><source srcset="img.webp/4.webp" type="image/webp"><img class="top__slide-img" src="img/png/4.png" alt=""></picture>
+					</div>
+					<!-- Если нужна пагинация -->
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+			<!-- Оболочка слайдера -->
+			<div class="bottom__slider swiper bottom ">
+				<!-- Двигающееся часть слайдера -->
+				<div class="bottom__wrapper swiper-wrapper">
+					<!-- Слайд -->
+					<div class="bottom__slide swiper-slide">
+						<div class="bottom__slider-description">
+							<p class="bottom__slider-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+							</p>
+							<span class="bottom__slider-date">
+								21.06.2020
+							</span>
+						</div>
+						<div class="bottom__slider-description">
+							<p class="bottom__slider-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+							</p>
+							<span class="bottom__slider-date">
+								21.06.2020
+							</span>
+						</div>
+						<picture><source srcset="img.webp/slider2.webp" type="image/webp"><img src="img/png/slider2.png" alt="" class="bottom__slider-img"></picture>
+						<div class="bottom__slider-description">
+							<h3 class="bottom__slider-title">
+								Как писать код быстро и безболезненно?
+							</h3>
+							<p class="bottom__slider-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+							</p>
+							<span class="bottom__slider-date">
+								21.06.2020
+							</span>
+						</div>
+						<div class="bottom__slider-description">
+							<p class="bottom__slider-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+							</p>
+							<span class="bottom__slider-date">
+								21.06.2020
+							</span>
+						</div>
+					</div>
+					<div class="bottom__slide swiper-slide">
+						<picture><source srcset="img.webp/slider2.webp" type="image/webp"><img src="img/png/slider2.png" alt="" class="bottom__slider-img"></picture>
+						<div class="bottom__slider-description">
+							<h3 class="bottom__slider-title">
+								Как писать код быстро и безболезненно?
+							</h3>
+							<p class="bottom__slider-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+							</p>
+							<span class="bottom__slider-date">
+								21.06.2020
+							</span>
+						</div>
+					</div>
+					<div class="bottom__slide swiper-slide">
+						<div class="bottom__slider-description">
+							<p class="bottom__slider-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+							</p>
+							<span class="bottom__slider-date">
+								21.06.2020
+							</span>
+						</div>
+					</div>
+					<div class="bottom__slide swiper-slide">
+						<div class="bottom__slider-description">
+							<p class="bottom__slider-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+							</p>
+							<span class="bottom__slider-date">
+								21.06.2020
+							</span>
+						</div>
+					</div>
+				</div>
+				<!-- Если нужна пагинация -->
+				<div class="bottom__slider-pagination">
+					<button type="button" class="bottom-prev">
+						<svg class="prev">
+							<use xlink:href="img/icons/icons.svg#svg-prev"></use>
+						</svg>
+					</button>
+					<div class="swiper-pagination test"></div>
+					<!-- Если нужна навигация (влево/вправо) -->
+
+					<button type="button" class="bottom-next">
+						<svg class="next">
+							<use xlink:href="img/icons/icons.svg#svg-next"></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<!-- <div class="hystmodal" id="myPopup" aria-hidden="true">
+	<div class="hystmodal__wrap">
+		<div class="hystmodal__window" role="dialog" aria-modal="true">
+			<button data-hystclose class="hystmodal__close">Закрыть</button>
+		</div>
+	</div>
+</div>
+<div class="hystmodal" id="massageName" aria-hidden="true">
+	<div class="hystmodal__wrap">
+		<div class="hystmodal__window" role="dialog" aria-modal="true">
+			<button data-hystclose class="hystmodal__close">Закрыть</button>
+			Сообщение
+		</div>
+	</div>
+</div> -->
+
+	<script src="js/app.min.js?_v=20220925211403"></script>
+</body>
+
+</html>
